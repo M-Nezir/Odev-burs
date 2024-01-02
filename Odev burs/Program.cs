@@ -22,8 +22,12 @@ namespace Odev_burs
                 b = (d * 0.1) + d;
                 b = b + 50;
                 Console.WriteLine(b);
+
+                 int s = Array.IndexOf(a, d);
+                 a.SetValue(b, s);
             }
-            Console.Write("DEVAM ETMEK İÇİN BİR TUŞA BASINIZ. . . "); Console.ReadKey(true);
+            Console.Write("DEVAM ETMEK İÇİN BİR TUŞA BASINIZ. . . ");
+            Console.ReadKey(true);
 
             //ÖDEV: Örnek096’yı foreach ile yeniden yazınız.
         }
